@@ -2,7 +2,7 @@ name: CI - Nightly - Spring Boot DevSecOps
 
 on:
   schedule:
-    - cron: '35 18 * * *'  # Runs every day at 20:55
+    - cron: '47 18 * * *'  # Runs every day at 20:55
       timezone: 'America/La_Paz'
   workflow_dispatch:
 
