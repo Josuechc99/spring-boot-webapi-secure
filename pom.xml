@@ -91,6 +91,7 @@
                 <version>11.1.1</version>
                 <configuration>
                     <failBuildOnCVSS>7</failBuildOnCVSS>
+                    <nvdApiKey>B5E69E20-B5CF-4B30-8BE2-E1FAAEF68059</nvdApiKey>
                 </configuration>
                 <executions>
                     <execution>
@@ -99,6 +100,12 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- SpotBugs -->
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.8.6.2</version>
             </plugin>
         </plugins>
     </build>
